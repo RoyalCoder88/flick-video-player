@@ -3,7 +3,7 @@ description: Flick Video Player is a video player for flutter. The video_player 
 repository: https://github.com/RoyalCoder88/flick-video-player
 homepage: https://github.com/RoyalCoder88/flick-video-player
 
-version: 0.5.1
+version: 0.5.2
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
@@ -16,7 +16,7 @@ dependencies:
   provider: ^6.0.5
   wakelock: ^0.6.2
   #universal_html: ^2.2.2 
-  #universal_html_cpy: ^1.0.1
+  universal_html_cpy: ^1.0.1
   dio: ^5.1.2
   path_provider: ^2.0.15
 

@@ -1,10 +1,9 @@
-import 'dart:html';
-
 import 'package:flick_video_player/src/utils/web_key_bindings.dart';
 import 'package:flick_video_player/flick_video_player.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:universal_html_cpy/html.dart';
 import 'package:wakelock/wakelock.dart';
 
 class FlickVideoPlayer extends StatefulWidget {

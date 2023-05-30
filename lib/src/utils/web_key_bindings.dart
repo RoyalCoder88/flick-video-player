@@ -1,5 +1,5 @@
-import 'dart:html';
 import 'package:flick_video_player/src/manager/flick_manager.dart';
+import 'package:universal_html_cpy/html.dart';
 
 void flickDefaultWebKeyDownHandler(
     KeyboardEvent event, FlickManager flickManager) {

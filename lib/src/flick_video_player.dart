@@ -1,5 +1,6 @@
+import 'dart:html';
+
 import 'package:flick_video_player/src/utils/web_key_bindings.dart';
-import 'package:universal_html/html.dart';
 import 'package:flick_video_player/flick_video_player.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -138,7 +139,7 @@ class _FlickVideoPlayerState extends State<FlickVideoPlayer> {
       );
     });
 
-    Overlay.of(context)!.insert(_overlayEntry!);
+    Overlay.of(context).insert(_overlayEntry!);
   }
 
   _exitFullscreen() {
